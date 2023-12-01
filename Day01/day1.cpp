@@ -12,28 +12,21 @@ char findFirstDigit(const std::string &line) {
         return '1';
       } else if (line[i] == 't' && line[i + 1] == 'w' && line[i + 2] == 'o') {
         return '2';
-      } else if (line[i] == 't' && line[i + 1] == 'h' && line[i + 2] == 'r' &&
-                 line[i + 3] == 'e' && line[i + 4] == 'e') {
+      } else if (line[i] == 't' && line[i + 1] == 'h' && line[i + 2] == 'r' && line[i + 3] == 'e' && line[i + 4] == 'e') {
         return '3';
-      } else if (line[i] == 'f' && line[i + 1] == 'o' && line[i + 2] == 'u' &&
-                 line[i + 3] == 'r') {
+      } else if (line[i] == 'f' && line[i + 1] == 'o' && line[i + 2] == 'u' && line[i + 3] == 'r') {
         return '4';
-      } else if (line[i] == 'f' && line[i + 1] == 'i' && line[i + 2] == 'v' &&
-                 line[i + 3] == 'e') {
+      } else if (line[i] == 'f' && line[i + 1] == 'i' && line[i + 2] == 'v' && line[i + 3] == 'e') {
         return '5';
       } else if (line[i] == 's' && line[i + 1] == 'i' && line[i + 2] == 'x') {
         return '6';
-      } else if (line[i] == 's' && line[i + 1] == 'e' && line[i + 2] == 'v' &&
-                 line[i + 3] == 'e' && line[i + 4] == 'n') {
+      } else if (line[i] == 's' && line[i + 1] == 'e' && line[i + 2] == 'v' && line[i + 3] == 'e' && line[i + 4] == 'n') {
         return '7';
-      } else if (line[i] == 'e' && line[i + 1] == 'i' && line[i + 2] == 'g' &&
-                 line[i + 3] == 'h' && line[i + 4] == 't') {
+      } else if (line[i] == 'e' && line[i + 1] == 'i' && line[i + 2] == 'g' && line[i + 3] == 'h' && line[i + 4] == 't') {
         return '8';
-      } else if (line[i] == 'n' && line[i + 1] == 'i' && line[i + 2] == 'n' &&
-                 line[i + 3] == 'e') {
+      } else if (line[i] == 'n' && line[i + 1] == 'i' && line[i + 2] == 'n' && line[i + 3] == 'e') {
         return '9';
-      } else if (line[i] == 'z' && line[i + 1] == 'e' && line[i + 2] == 'r' &&
-                 line[i + 3] == 'o') {
+      } else if (line[i] == 'z' && line[i + 1] == 'e' && line[i + 2] == 'r' && line[i + 3] == 'o') {
         return '0';
       }
     }
@@ -50,28 +43,21 @@ char findLastDigit(const std::string &line) {
         return '1';
       } else if (line[i - 2] == 't' && line[i - 1] == 'w' && line[i] == 'o') {
         return '2';
-      } else if (line[i - 4] == 't' && line[i - 3] == 'h' &&
-                 line[i - 2] == 'r' && line[i - 1] == 'e' && line[i] == 'e') {
+      } else if (line[i - 4] == 't' && line[i - 3] == 'h' && line[i - 2] == 'r' && line[i - 1] == 'e' && line[i] == 'e') {
         return '3';
-      } else if (line[i - 3] == 'f' && line[i - 2] == 'o' &&
-                 line[i - 1] == 'u' && line[i] == 'r') {
+      } else if (line[i - 3] == 'f' && line[i - 2] == 'o' && line[i - 1] == 'u' && line[i] == 'r') {
         return '4';
-      } else if (line[i - 3] == 'f' && line[i - 2] == 'i' &&
-                 line[i - 1] == 'v' && line[i] == 'e') {
+      } else if (line[i - 3] == 'f' && line[i - 2] == 'i' && line[i - 1] == 'v' && line[i] == 'e') {
         return '5';
       } else if (line[i - 2] == 's' && line[i - 1] == 'i' && line[i] == 'x') {
         return '6';
-      } else if (line[i - 4] == 's' && line[i - 3] == 'e' &&
-                 line[i - 2] == 'v' && line[i - 1] == 'e' && line[i] == 'n') {
+      } else if (line[i - 4] == 's' && line[i - 3] == 'e' && line[i - 2] == 'v' && line[i - 1] == 'e' && line[i] == 'n') {
         return '7';
-      } else if (line[i - 4] == 'e' && line[i - 3] == 'i' &&
-                 line[i - 2] == 'g' && line[i - 1] == 'h' && line[i] == 't') {
+      } else if (line[i - 4] == 'e' && line[i - 3] == 'i' && line[i - 2] == 'g' && line[i - 1] == 'h' && line[i] == 't') {
         return '8';
-      } else if (line[i - 3] == 'n' && line[i - 2] == 'i' &&
-                 line[i - 1] == 'n' && line[i] == 'e') {
+      } else if (line[i - 3] == 'n' && line[i - 2] == 'i' && line[i - 1] == 'n' && line[i] == 'e') {
         return '9';
-      } else if (line[i - 3] == 'z' && line[i - 2] == 'e' &&
-                 line[i - 1] == 'r' && line[i] == 'o') {
+      } else if (line[i - 3] == 'z' && line[i - 2] == 'e' && line[i - 1] == 'r' && line[i] == 'o') {
         return '0';
       }
     }
@@ -80,7 +66,6 @@ char findLastDigit(const std::string &line) {
 }
 
 int main() {
-  // Change input and output files here!
   std::ifstream inputFile("day1input.txt");
   std::ofstream outputFile("day1output.txt");
   std::string line;
